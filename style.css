@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&family=Mouse+Memoirs&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&family=Mouse+Memoirs&family=Roboto+Mono:wght@700&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+}
+
+ul[class], ol[class],
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 15px 25px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.548);
+  min-height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: inherit;
+}
+.header .logo__title {
+  font-size: calc(
+    25px + 20 * ((100vw - 320px) / 960)
+  );
+  font-family: "Mouse Memoirs", sans-serif;
+}
+.header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .menu__list {
+  display: flex;
+  gap: 40px;
+}
+.header .menu__item {
+  font-family: "Roboto Mono", monospace;
+  font-size: calc(
+    18px + 8 * ((100vw - 320px) / 960)
+  );
+}
+
+.main {
+  min-height: 100vh;
+  background-image: url(./image/background/1920x1080_px_forest_house_outdoors_tree_house-988067.jpg!d);
+  background-repeat: no-repeat;
+  background-position: top;
+}/*# sourceMappingURL=style.css.map */
